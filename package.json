@@ -4,9 +4,9 @@
   "description": "Arquitectura basica de aplicacion web con manejador de logs, hotreload, unit testing y eslint",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "dev": "supervisor index.js"
+    "dev": "supervisor index.js",
+    "test": "mocha ./test/test.js"
   },
   "keywords": [
     "nodejs",
