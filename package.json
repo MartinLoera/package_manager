@@ -1,0 +1,28 @@
+{
+  "name": "package_manager",
+  "version": "1.0.0",
+  "description": "Arquitectura basica de aplicacion web con manejador de logs, hotreload, unit testing y eslint",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "supervisor index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "logs",
+    "hotreload",
+    "y",
+    "unit",
+    "testing"
+  ],
+  "author": "Martin loera",
+  "license": "ISC",
+  "dependencies": {
+    "log4js": "^6.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "mocha": "^9.1.0"
+  }
+}
